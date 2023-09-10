@@ -20,6 +20,6 @@ app.use(routes);
 // this Connect to the MongoDB database and start the server
 db.once('open', () => {
     app.listen(PORT, () => {
-      console.log(`The API server is running on port http://localhost:${PORT}!`);
+      console.log(`The API server is running on port http://localhost:${PORT}`);
     });
   });
