@@ -4,12 +4,12 @@ const reactionSchema = require('./Reaction');
 //lest create thoughtSchema
 const thoughtSchema = new Schema(
     {
-        //// this will Define the thought schema with the required fields and their respective data types
+        // this will Define the thought schema with the required fields and their respective data types
         thoughtText:{
             type: String,
             required: true,
             minlength: 1,
-            maxlenght: 280,
+            maxlenght: 300,
         },
         createdAt:{
             type: Date,
